@@ -6,54 +6,54 @@
 <title>🏆 SNAI Promozioni 2026 — Team BPM</title>
 <style>
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Segoe UI',Arial,sans-serif;background:#0f1923;color:#e8edf2;padding:20px;max-width:800px;margin:0 auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#f5f5f5;color:#1a1a1a;padding:20px;max-width:800px;margin:0 auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   @page{size:A4;margin:15mm}
-  .header{text-align:center;padding:25px 0 15px;border-bottom:3px solid #2563eb;margin-bottom:20px;background:#1e2a3a;margin:-20px -20px 20px;padding:25px 20px 15px;border-radius:0}
+  .header{text-align:center;padding:25px 0 15px;border-bottom:3px solid #c8102e;margin-bottom:20px;background:#c8102e;margin:-20px -20px 20px;padding:25px 20px 15px;border-radius:0}
   .header h1{font-size:26px;color:#fff;letter-spacing:3px;text-transform:uppercase}
-  .header .sub{font-size:13px;color:#7a8fa6;margin-top:5px}
-  .header .team{font-size:15px;color:#fff;background:#2563eb;display:inline-block;padding:3px 14px;border-radius:4px;font-weight:800;margin-top:8px}
+  .header .sub{font-size:13px;color:rgba(255,255,255,.7);margin-top:5px}
+  .header .team{font-size:15px;color:#fff;background:#fff;color:#c8102e;display:inline-block;padding:3px 14px;border-radius:4px;font-weight:800;margin-top:8px}
   .logo{font-size:42px;margin-bottom:5px}
-  .section-title{background:linear-gradient(90deg,#2563eb,#1d4ed8);color:#fff;font-weight:800;font-size:13px;padding:6px 14px;border-radius:4px;margin:16px 0 8px;text-transform:uppercase;letter-spacing:1px}
+  .section-title{background:linear-gradient(90deg,#c8102e,#a00d24);color:#fff;font-weight:800;font-size:13px;padding:6px 14px;border-radius:4px;margin:16px 0 8px;text-transform:uppercase;letter-spacing:1px}
   .section-title.xmas{background:linear-gradient(90deg,#c77dff,#9d4edd)}
-  .section-title.cross{background:linear-gradient(90deg,#f59e0b,#d97706)}
+  .section-title.cross{background:linear-gradient(90deg,#1a1a1a,#333)}
   table{width:100%;border-collapse:collapse;margin-bottom:4px}
-  th{background:#1e2a3a;color:#7a8fa6;font-size:10px;text-transform:uppercase;padding:5px 8px;text-align:left;letter-spacing:1px}
+  th{background:#1e2a3a;color:#666;font-size:10px;text-transform:uppercase;padding:5px 8px;text-align:left;letter-spacing:1px}
   th:nth-child(2){text-align:center;width:70px}
   th:nth-child(3){text-align:center;width:50px}
-  td{padding:6px 8px;border-bottom:1px solid #1e2a3a;font-size:12px}
-  td:nth-child(2){text-align:center;font-weight:800;color:#60a5fa;font-size:14px}
+  td{padding:6px 8px;border-bottom:1px solid #ddd;font-size:12px}
+  td:nth-child(2){text-align:center;font-weight:800;color:#c8102e;font-size:14px}
   td:nth-child(3){text-align:center}
-  tr:hover{background:#1e2a3a}
+  tr:hover{background:#e8e8e8}
   tr.selected{background:#1a3a2a;border-left:3px solid #2ecc71}
   .badge{display:inline-block;font-size:9px;padding:1px 6px;border-radius:3px;margin-left:6px;font-weight:700;vertical-align:middle}
-  .badge-hot{background:#ef4444;color:#fff}
+  .badge-hot{background:#c8102e;color:#fff}
   .badge-new{background:#2a9d8f;color:#fff}
   .badge-xmas{background:#c77dff;color:#fff}
-  .badge-promo{background:#f59e0b;color:#0f1923}
-  .tier-label{font-size:10px;color:#5a6f85;font-weight:400}
-  .event-banner{background:#1e2a3a;border:1px solid #2a3a4e;border-left:4px solid #c77dff;padding:8px 14px;margin:12px 0 6px;border-radius:4px;font-size:11px;color:#7a8fa6}
+  .badge-promo{background:#f59e0b;color:#fff}
+  .tier-label{font-size:10px;color:#888;font-weight:400}
+  .event-banner{background:#1e2a3a;border:1px solid #ddd;border-left:4px solid #9d4edd;padding:8px 14px;margin:12px 0 6px;border-radius:4px;font-size:11px;color:#666}
   .event-banner strong{color:#c77dff}
-  .bet-btn{background:none;border:1px solid #2563eb;color:#60a5fa;padding:2px 8px;border-radius:3px;cursor:pointer;font-size:11px;font-weight:700;min-width:28px}
-  .bet-btn:hover{background:#2563eb;color:#fff}
+  .bet-btn{background:none;border:1px solid #c8102e;color:#c8102e;padding:2px 8px;border-radius:3px;cursor:pointer;font-size:11px;font-weight:700;min-width:28px}
+  .bet-btn:hover{background:#c8102e;color:#fff}
   .bet-btn.active{background:#2ecc71;border-color:#2ecc71;color:#fff}
-  .cart{position:fixed;bottom:0;left:0;right:0;background:#1e2a3a;border-top:3px solid #2563eb;padding:12px 20px;z-index:50;display:none}
+  .cart{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:3px solid #c8102e;padding:12px 20px;z-index:50;display:none}
   .cart.active{display:block}
-  .cart h3{color:#60a5fa;font-size:14px;margin-bottom:6px}
-  .cart-picks{font-size:11px;color:#7a8fa6;margin-bottom:6px;max-height:80px;overflow-y:auto}
-  .cart-pick{display:inline-block;background:#0f1923;border:1px solid #2a3a4e;border-radius:3px;padding:2px 8px;margin:2px 4px 2px 0;font-size:11px}
-  .cart-pick .remove{color:#ef4444;cursor:pointer;font-weight:700;margin-left:4px}
+  .cart h3{color:#c8102e;font-size:14px;margin-bottom:6px}
+  .cart-picks{font-size:11px;color:#666;margin-bottom:6px;max-height:80px;overflow-y:auto}
+  .cart-pick{display:inline-block;background:#f5f5f5;border:1px solid #ddd;border-radius:3px;padding:2px 8px;margin:2px 4px 2px 0;font-size:11px}
+  .cart-pick .remove{color:#c8102e;cursor:pointer;font-weight:700;margin-left:4px}
   .cart-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-  .cart-odds{font-size:20px;font-weight:800;color:#60a5fa}
+  .cart-odds{font-size:20px;font-weight:800;color:#c8102e}
   .cart-win{font-size:13px;color:#2ecc71;font-weight:700}
   .cart-actions{display:flex;gap:8px;align-items:center}
-  .cart-actions select{padding:6px;border-radius:5px;border:1px solid #2a3a4e;background:#0f1923;color:#fff;font-size:13px}
+  .cart-actions select{padding:6px;border-radius:5px;border:1px solid #ddd;background:#f5f5f5;color:#fff;font-size:13px}
   .cart-actions button{padding:8px 20px;border:none;border-radius:5px;font-size:13px;font-weight:800;cursor:pointer;text-transform:uppercase}
-  .btn-send{background:#2563eb;color:#fff}
-  .btn-send:hover{background:#1d4ed8}
-  .btn-clear{background:none;border:1px solid #5a6f85;color:#5a6f85;padding:8px 12px}
-  .footer{margin-top:20px;padding:12px 0 80px;border-top:2px solid #1e2a3a;text-align:center}
-  .footer .max{background:#ef4444;color:#fff;display:inline-block;padding:6px 20px;border-radius:5px;font-weight:800;font-size:14px;margin-bottom:8px}
-  .footer .disclaimer{font-size:9px;color:#5a6f85;line-height:1.4;max-width:500px;margin:0 auto}
+  .btn-send{background:#c8102e;color:#fff}
+  .btn-send:hover{background:#a00d24}
+  .btn-clear{background:none;border:1px solid #999;color:#888;padding:8px 12px}
+  .footer{margin-top:20px;padding:12px 0 80px;border-top:2px solid #ddd;text-align:center}
+  .footer .max{background:#c8102e;color:#fff;display:inline-block;padding:6px 20px;border-radius:5px;font-weight:800;font-size:14px;margin-bottom:8px}
+  .footer .disclaimer{font-size:9px;color:#888;line-height:1.4;max-width:500px;margin:0 auto}
   @media print{.bet-btn,.no-print,.cart{display:none!important}body{padding:0}tr{page-break-inside:avoid}.footer{padding-bottom:12px}}
 </style>
 </head>
