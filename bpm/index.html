@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🏆 SNAI Promozioni 2026 — Team BPM</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#1a0a0a;color:#fff;padding:20px;max-width:800px;margin:0 auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:A4;margin:15mm}
+  .header{text-align:center;padding:25px 0 15px;border-bottom:3px solid #cc0000;margin-bottom:20px}
+  .header h1{font-size:26px;color:#cc0000;letter-spacing:3px;text-transform:uppercase}
+  .header .sub{font-size:13px;color:#8899aa;margin-top:5px}
+  .header .team{font-size:15px;color:#fff;background:#cc0000;display:inline-block;padding:3px 14px;border-radius:4px;font-weight:800;margin-top:8px}
+  .logo{font-size:42px;margin-bottom:5px}
+  .section-title{background:linear-gradient(90deg,#cc0000,#990000);color:#fff;font-weight:800;font-size:13px;padding:6px 14px;border-radius:4px;margin:16px 0 8px;text-transform:uppercase;letter-spacing:1px}
+  .section-title.xmas{background:linear-gradient(90deg,#c77dff,#9d4edd)}
+  .section-title.cross{background:linear-gradient(90deg,#ff6b35,#cc4400)}
+  table{width:100%;border-collapse:collapse;margin-bottom:4px}
+  th{background:#2a1010;color:#8899aa;font-size:10px;text-transform:uppercase;padding:5px 8px;text-align:left;letter-spacing:1px}
+  th:nth-child(2){text-align:center;width:70px}
+  th:nth-child(3){text-align:center;width:50px}
+  td{padding:6px 8px;border-bottom:1px solid #3a1a1a;font-size:12px}
+  td:nth-child(2){text-align:center;font-weight:800;color:#ff4444;font-size:14px}
+  td:nth-child(3){text-align:center}
+  tr:hover{background:#2a1010}
+  tr.selected{background:#1a3a1a;border-left:3px solid #2ecc71}
+  .badge{display:inline-block;font-size:9px;padding:1px 6px;border-radius:3px;margin-left:6px;font-weight:700;vertical-align:middle}
+  .badge-hot{background:#cc0000;color:#fff}
+  .badge-new{background:#2a9d8f;color:#fff}
+  .badge-xmas{background:#c77dff;color:#fff}
+  .badge-promo{background:#ff6b35;color:#fff}
+  .tier-label{font-size:10px;color:#776655;font-weight:400}
+  .event-banner{background:#2a1010;border:1px solid #3a1a1a;border-left:4px solid #c77dff;padding:8px 14px;margin:12px 0 6px;border-radius:4px;font-size:11px;color:#aabbcc}
+  .event-banner strong{color:#c77dff}
+  .bet-btn{background:none;border:1px solid #cc0000;color:#ff4444;padding:2px 8px;border-radius:3px;cursor:pointer;font-size:11px;font-weight:700;min-width:28px}
+  .bet-btn:hover{background:#cc0000;color:#fff}
+  .bet-btn.active{background:#2ecc71;border-color:#2ecc71;color:#fff}
+  .cart{position:fixed;bottom:0;left:0;right:0;background:#2a1010;border-top:3px solid #cc0000;padding:12px 20px;z-index:50;display:none}
+  .cart.active{display:block}
+  .cart h3{color:#ff4444;font-size:14px;margin-bottom:6px}
+  .cart-picks{font-size:11px;color:#aabbcc;margin-bottom:6px;max-height:80px;overflow-y:auto}
+  .cart-pick{display:inline-block;background:#1a0a0a;border:1px solid #3a1a1a;border-radius:3px;padding:2px 8px;margin:2px 4px 2px 0;font-size:11px}
+  .cart-pick .remove{color:#cc0000;cursor:pointer;font-weight:700;margin-left:4px}
+  .cart-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .cart-odds{font-size:20px;font-weight:800;color:#ff4444}
+  .cart-win{font-size:13px;color:#2ecc71;font-weight:700}
+  .cart-actions{display:flex;gap:8px;align-items:center}
+  .cart-actions select{padding:6px;border-radius:5px;border:1px solid #3a1a1a;background:#1a0a0a;color:#fff;font-size:13px}
+  .cart-actions button{padding:8px 20px;border:none;border-radius:5px;font-size:13px;font-weight:800;cursor:pointer;text-transform:uppercase}
+  .btn-send{background:#cc0000;color:#fff}
+  .btn-send:hover{background:#990000}
+  .btn-clear{background:none;border:1px solid #556677;color:#556677;padding:8px 12px}
+  .footer{margin-top:20px;padding:12px 0 80px;border-top:2px solid #3a1a1a;text-align:center}
+  .footer .max{background:#cc0000;color:#fff;display:inline-block;padding:6px 20px;border-radius:5px;font-weight:800;font-size:14px;margin-bottom:8px}
+  .footer .disclaimer{font-size:9px;color:#556677;line-height:1.4;max-width:500px;margin:0 auto}
+  @media print{.bet-btn,.no-print,.cart{display:none!important}body{padding:0}tr{page-break-inside:avoid}.footer{padding-bottom:12px}}
+</style>
+</head>
+<body>
+<div class="header"><div class="logo">🏆</div><h1>Promozioni 2026</h1><div class="team">🏦 TEAM BPM</div><div class="sub">Quote aggiornate al 21 Aprile 2026 — Edizione Ufficio</div></div>
+
+<div class="section-title">📋 Evento Giugno — Singole</div>
+<table><tr><th>Candidato</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r0"><td>De Carlo Marco <span class="badge badge-hot">🔥 HOT</span> <span class="tier-label">Sr Manager dal 2024 · in Prometeia dal 2017</span></td><td>1.45</td><td class="no-print"><button class="bet-btn" onclick="toggle(0,'De Carlo Marco',1.45)">+</button></td></tr>
+<tr id="r1"><td>Inzirillo Carlo <span class="badge badge-promo">PRINCIPAL 2025</span> <span class="tier-label">appena promosso</span></td><td>15.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(1,'Inzirillo Carlo',15.00)">+</button></td></tr>
+<tr id="r2"><td>Cicala Leonardo <span class="badge badge-hot">🔥 HOT</span> <span class="tier-label">Sr Manager dal 2025 · 3 promo in 5 anni</span></td><td>2.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(2,'Cicala Leonardo',2.50)">+</button></td></tr>
+<tr id="r3"><td>Corvino Sergio <span class="tier-label">Sr Specialist dal 2024 · in Prometeia dal 2017</span></td><td>5.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(3,'Corvino Sergio',5.00)">+</button></td></tr>
+<tr id="r4"><td>Barigelli Christian <span class="tier-label">Sr Specialist dal 2024 · in Prometeia dal 2020</span></td><td>5.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(4,'Barigelli Christian',5.50)">+</button></td></tr>
+<tr id="r5"><td>Piovesan Alessio <span class="badge badge-promo">PRINCIPAL 2025</span> <span class="tier-label">appena promosso</span></td><td>15.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(5,'Piovesan Alessio',15.00)">+</button></td></tr>
+<tr id="r6"><td>Mastrangelo Luciano <span class="badge badge-promo">PRINCIPAL 2025</span> <span class="tier-label">appena promosso</span></td><td>15.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(6,'Mastrangelo Luciano',15.00)">+</button></td></tr>
+</table>
+
+<div class="section-title">🎯 Speciali Giugno</div>
+<table><tr><th>Scommessa</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r10"><td>Nessuna promozione nel team BPM a Giugno</td><td>4.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(10,'Nessuna promo BPM Giugno',4.00)">+</button></td></tr>
+<tr id="r11"><td>De Carlo Principal a Giugno</td><td>1.45</td><td class="no-print"><button class="bet-btn" onclick="toggle(11,'De Carlo Principal',1.45)">+</button></td></tr>
+<tr id="r12"><td>Cicala Principal entro 2 anni dalla Sr Manager</td><td>3.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(12,'Cicala Principal entro 2027',3.50)">+</button></td></tr>
+<tr id="r13"><td>Doppia promo in 2 anni (Barigelli o Corvino)</td><td>7.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(13,'Doppia promo Barigelli/Corvino',7.50)">+</button></td></tr>
+<tr id="r14"><td>Over 2.5 promozioni team BPM a Giugno</td><td>2.75</td><td class="no-print"><button class="bet-btn" onclick="toggle(14,'Over 2.5 BPM Giugno',2.75)">+</button></td></tr>
+<tr id="r15"><td>Under 1.5 promozioni team BPM a Giugno</td><td>2.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(15,'Under 1.5 BPM Giugno',2.50)">+</button></td></tr>
+</table>
+
+<div class="section-title">🔗 Doppie Giugno</div>
+<table><tr><th>Accoppiata</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r17"><td>De Carlo + Cicala <span class="tier-label">i manager</span></td><td>3.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(17,'De Carlo+Cicala',3.00)">+</button></td></tr>
+<tr id="r18"><td>De Carlo + Corvino</td><td>5.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(18,'De Carlo+Corvino',5.50)">+</button></td></tr>
+<tr id="r19"><td>De Carlo + Barigelli</td><td>6.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(19,'De Carlo+Barigelli',6.00)">+</button></td></tr>
+<tr id="r20"><td>Cicala + Corvino</td><td>8.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(20,'Cicala+Corvino',8.00)">+</button></td></tr>
+<tr id="r21"><td>Cicala + Barigelli</td><td>8.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(21,'Cicala+Barigelli',8.50)">+</button></td></tr>
+<tr id="r22"><td>Corvino + Barigelli <span class="tier-label">i veterani</span></td><td>12.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(22,'Corvino+Barigelli',12.00)">+</button></td></tr>
+</table>
+
+<div class="section-title">🎰 Triple Giugno</div>
+<table><tr><th>Tripletta</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r25"><td>De Carlo + Cicala + Corvino</td><td>10.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(25,'De Carlo+Cicala+Corvino',10.00)">+</button></td></tr>
+<tr id="r26"><td>De Carlo + Cicala + Barigelli</td><td>11.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(26,'De Carlo+Cicala+Barigelli',11.00)">+</button></td></tr>
+<tr id="r27"><td>De Carlo + Corvino + Barigelli</td><td>18.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(27,'De Carlo+Corvino+Barigelli',18.00)">+</button></td></tr>
+<tr id="r28"><td>Cicala + Corvino + Barigelli <span class="tier-label">tripletta WAM</span></td><td>22.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(28,'Cicala+Corvino+Barigelli',22.00)">+</button></td></tr>
+</table>
+
+<div class="section-title">💎 Quadrupla Giugno</div>
+<table><tr><th>Quadrupla</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r30"><td>De Carlo + Cicala + Corvino + Barigelli <span class="badge badge-hot">POKER BPM</span></td><td>35.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(30,'POKER BPM',35.00)">+</button></td></tr>
+</table>
+
+<div class="event-banner"><strong>🎄 CONVENTION DI NATALE 2026</strong> — Promozioni Principal. De Carlo ha tempistiche mature per il Principal, la promozione potrebbe arrivare a Natale se non a Giugno.</div>
+
+<div class="section-title xmas">🎄 Convention Natale — Principal</div>
+<table><tr><th>Candidato</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r34"><td>De Carlo Marco <span class="badge badge-xmas">🎄 PRINCIPAL</span> <span class="tier-label">se non promosso a Giugno</span></td><td>1.80</td><td class="no-print"><button class="bet-btn" onclick="toggle(34,'De Carlo Principal Natale',1.80)">+</button></td></tr>
+<tr id="r35"><td>Cicala Leonardo <span class="badge badge-xmas">🎄 PRINCIPAL</span> <span class="tier-label">percorso accelerato</span></td><td>5.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(35,'Cicala Principal Natale',5.00)">+</button></td></tr>
+</table>
+
+<div class="section-title xmas">🎄 Speciali Natale</div>
+<table><tr><th>Scommessa</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r36"><td>De Carlo Principal nel 2026 (Giugno o Natale)</td><td>1.25</td><td class="no-print"><button class="bet-btn" onclick="toggle(36,'De Carlo Principal 2026',1.25)">+</button></td></tr>
+<tr id="r37"><td>Nessun Principal BPM nel 2026</td><td>5.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(37,'Nessun Principal BPM 2026',5.00)">+</button></td></tr>
+</table>
+
+<div class="section-title cross">⚡ Storico & Fun Facts</div>
+<table><tr><th>Scommessa</th><th>Quota</th><th class="no-print"></th></tr>
+<tr id="r40"><td>Cicala 4ª promozione in 6 anni <span class="tier-label">la macchina</span></td><td>3.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(40,'Cicala 4a promo',3.50)">+</button></td></tr>
+<tr id="r41"><td>Almeno 3 promozioni team BPM nel 2026</td><td>4.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(41,'Almeno 3 promo BPM 2026',4.50)">+</button></td></tr>
+<tr id="r42"><td>Zero promozioni team BPM tutto il 2026</td><td>12.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(42,'Zero promo BPM 2026',12.00)">+</button></td></tr>
+<tr id="r43"><td>Barigelli Principal entro il 2028</td><td>6.00</td><td class="no-print"><button class="bet-btn" onclick="toggle(43,'Barigelli Principal entro 2028',6.00)">+</button></td></tr>
+<tr id="r44"><td>Corvino Principal entro il 2028</td><td>5.50</td><td class="no-print"><button class="bet-btn" onclick="toggle(44,'Corvino Principal entro 2028',5.50)">+</button></td></tr>
+</table>
+
+<div class="footer">
+  <div class="max">⚠️ IMPORTO MASSIMO PER SCHEDINA: € 5,00</div>
+  <div class="disclaimer">Le quote sono puramente indicative e a scopo ludico. Nessun valore legale o contrattuale. Il banco si riserva di modificare le quote in qualsiasi momento. Vietato ai minori di 18 anni (di servizio). Gioca responsabilmente. Se hai un problema di gioco chiama il tuo Team Leader.<br><strong>© SNAI Ufficio Edition — Team BPM — Aprile 2026</strong></div>
+</div>
+
+<div class="cart" id="cart">
+  <h3>🎰 La tua schedina</h3>
+  <div class="cart-picks" id="cartPicks"></div>
+  <div class="cart-summary">
+    <div>
+      <div>Quota totale: <span class="cart-odds" id="cartOdds">—</span></div>
+      <div class="cart-win" id="cartWin"></div>
+    </div>
+    <div class="cart-actions">
+      <select id="betAmount"><option value="1">€1</option><option value="2">€2</option><option value="3">€3</option><option value="4">€4</option><option value="5" selected>€5</option></select>
+      <button class="btn-clear" onclick="clearAll()">🗑</button>
+      <button class="btn-send" onclick="sendBet()">📩 INVIA SCHEDINA</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var picks={};
+function toggle(id,name,quota){if(picks[id]){delete picks[id]}else{picks[id]={name:name,quota:quota}}render()}
+function removePick(id){delete picks[id];render()}
+function clearAll(){picks={};render()}
+function render(){var keys=Object.keys(picks);var el=document.getElementById('cartPicks');var html='';var totalQuota=1;keys.forEach(function(k){var p=picks[k];totalQuota*=p.quota;html+='<span class="cart-pick">'+p.name+' <b>@'+p.quota.toFixed(2)+'</b><span class="remove" onclick="removePick('+k+')"> ✕</span></span>'});el.innerHTML=html;document.getElementById('cart').classList.toggle('active',keys.length>0);document.querySelectorAll('tr[id^="r"]').forEach(function(tr){tr.classList.remove('selected')});document.querySelectorAll('.bet-btn').forEach(function(b){b.classList.remove('active');b.textContent='+'});keys.forEach(function(k){var tr=document.getElementById('r'+k);if(tr){tr.classList.add('selected');var b=tr.querySelector('.bet-btn');if(b){b.classList.add('active');b.textContent='✓'}}});if(keys.length>0){document.getElementById('cartOdds').textContent=totalQuota.toFixed(2);updateWin()}}
+function updateWin(){var keys=Object.keys(picks);if(keys.length===0)return;var totalQuota=1;keys.forEach(function(k){totalQuota*=picks[k].quota});var amt=parseInt(document.getElementById('betAmount').value);var win=(amt*totalQuota).toFixed(2).replace('.',',');document.getElementById('cartWin').textContent='Vincita potenziale: \u20ac'+win}
+document.getElementById('betAmount').addEventListener('change',updateWin);
+function sendBet(){var keys=Object.keys(picks);if(keys.length===0){alert('Seleziona almeno un esito!');return}var name=prompt('Il tuo nome e cognome:');if(!name)return;var amt=document.getElementById('betAmount').value;var totalQuota=1;var lines='SCHEDINA SNAI UFFICIO 2026 - TEAM BPM\n================================\n\nScommettitore: '+name+'\nTipo: '+(keys.length===1?'SINGOLA':'MULTIPLA ('+keys.length+' esiti)')+'\n\n';keys.forEach(function(k,i){var p=picks[k];totalQuota*=p.quota;lines+=(i+1)+'. '+p.name+' @ '+p.quota.toFixed(2)+'\n'});var win=(amt*totalQuota).toFixed(2).replace('.',',');lines+='\n================================\nQuota totale: '+totalQuota.toFixed(2)+'\nImporto: \u20ac'+amt+',00\nVincita potenziale: \u20ac'+win+'\n================================\n\nConfermo la mia schedina.\n';var subj=encodeURIComponent('\uD83C\uDFB0 Schedina SNAI BPM \u2014 '+name+' ('+keys.length+' esiti, quota '+totalQuota.toFixed(2)+')');var body=encodeURIComponent(lines);window.location.href='mailto:christian.barigelli@prometeia.com?subject='+subj+'&body='+body}
+</script>
+</body>
+</html>
